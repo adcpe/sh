@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-bootctl --path=/boot install
+bootctl --boot-path=/boot install
 
 systemctl enable systemd-boot-update
 
